@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Derivative Practice Sheet</title>
+    <!-- MathJax for rendering LaTeX -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background: #f9f9f9;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .question {
+            margin-bottom: 32px;
+            padding: 18px;
+            border-bottom: 1px solid #eee;
+        }
+        .answer {
+            margin-top: 10px;
+            background: #eaf6ea;
+            padding: 10px;
+            border-radius: 6px;
+            color: #1a4d1a;
+            font-size: 1.1em;
+        }
+        .latex {
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Derivative Practice Sheet</h1>
+        <div class="question">
+            <div class="latex">Find \( \frac{d}{dx} \left( x^4 - 3x^2 + 7x - 5 \right) \)</div>
+            <div class="answer latex">Answer: \( 4x^3 - 6x + 7 \)</div>
+        </div>
+        <div class="question">
+            <div class="latex">Find \( \frac{d}{dx} \left( \frac{2x^3 + 5x}{x^2 - 1} \right) \)</div>
+            <div class="answer latex">Answer: \( \frac{(6x^2 + 5)(x^2 - 1) - (2x^3 + 5x)(2x)}{(x^2 - 1)^2} \)</div>
+        </div>
+        <div class="question">
+            <div class="latex">Find \( \frac{d}{dx} \left( \arcsin(x^2) \right) \)</div>
+            <div class="answer latex">Answer: \( \frac{2x}{\sqrt{1 - x^4}} \)</div>
+        </div>
+        <div class="question">
+            <div class="latex">Find \( \frac{d}{dx} \left( e^{x^2} \sin(x) \right) \)</div>
+            <div class="answer latex">Answer: \( e^{x^2} \left( 2x \sin(x) + \cos(x) \right) \)</div>
+        </div>
+        <div class="question">
+            <div class="latex">Find \( \frac{d}{dx} \left( \ln(x^2 + 1) \right) \)</div>
+            <div class="answer latex">Answer: \( \frac{2x}{x^2 + 1} \)</div>
+        </div>
+        <div class="question">
+            <div class="latex">Find \( \frac{d}{dx} \left( \tan^{-1}(x^3) \right) \)</div>
+            <div class="answer latex">Answer: \( \frac{3x^2}{1 + x^6} \)</div>
+        </div>
+        <div class="question">
+            <div class="latex">Find \( \frac{d}{dx} \left( \frac{e^x}{x^2 + 1} \right) \)</div>
+            <div class="answer latex">Answer: \( \frac{e^x(x^2 + 1) - 2x e^x}{(x^2 + 1)^2} \)</div>
+        </div>
+        <div class="question">
+            <div class="latex">Find \( \frac{d}{dx} \left( x^2 \ln(x) \right) \)</div>
+            <div class="answer latex">Answer: \( 2x \ln(x) + x \)</div>
+        </div>
+        <div class="question">
+            <div class="latex">Find \( \frac{d}{dx} \left( \frac{1}{x^2 + 4} \right) \)</div>
+            <div class="answer latex">Answer: \( -\frac{2x}{(x^2 + 4)^2} \)</div>
+        </div>
+        <div class="question">
+            <div class="latex">Find \( \frac{d}{dx} \left( \sin(x) \arccos(x) \right) \)</div>
+            <div class="answer latex">Answer: \( \cos(x) \arccos(x) - \frac{\sin^2(x)}{\sqrt{1 - x^2}} \)</div>
+        </div>
+    </div>
+</body>
+</html>
